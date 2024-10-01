@@ -80,3 +80,38 @@ Response Headers: {"server":"ZGS","date":"Tue, 01 Oct 2024 08:38:54 GMT","conten
 [info] [2024-10-01T08:38:55.233Z] :  >>>>>>>>>>>>> AdvancedIO <<<<<<<<<<<< 
 [info] [2024-10-01T08:38:55.234Z] : ℹ crud_function: http://localhost:3000/server/crud_function/
 [info] [2024-10-01T08:38:55.234Z] : 
+[info] [2024-10-01T09:04:47.727Z] : 
+change of productController.js in crud_function detected. Preparing your function, please wait...
+[info] [2024-10-01T09:04:48.294Z] : ℹ AdvancedIO[crud_function]: ready!
+[info] [2024-10-01T09:04:48.294Z] : ℹ AdvancedIO[crud_function]: http://localhost:3000/server/crud_function/
+[info] [2024-10-01T09:17:07.785Z] : 
+change of index.js in crud_function detected. Preparing your function, please wait...
+[info] [2024-10-01T09:17:08.371Z] : ℹ AdvancedIO[crud_function]: ready!
+[info] [2024-10-01T09:17:08.371Z] : ℹ AdvancedIO[crud_function]: http://localhost:3000/server/crud_function/
+[debug] [2024-10-01T09:17:16.930Z] : > refreshing access token <
+[debug] [2024-10-01T09:17:16.934Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.com/oauth/v2/token 
+<request body omitted>
+
+[debug] [2024-10-01T09:17:17.860Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 01 Oct 2024 09:17:17 GMT","content-type":"application/json;charset=UTF-8","content-length":"1980","connection":"keep-alive","set-cookie":["zalb_b266a5bf57=a711b6da0e6cbadb5e254290f114a026; Path=/; Secure; HttpOnly","iamcsr=aa23eaef-1014-4988-895d-4e614c3f3575;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=aa23eaef-1014-4988-895d-4e614c3f3575;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-10-01T09:17:22.627Z] : 
+change of index.js in crud_function detected. Preparing your function, please wait...
+[info] [2024-10-01T09:17:23.238Z] : ℹ AdvancedIO[crud_function]: ready!
+[info] [2024-10-01T09:17:23.238Z] : ℹ AdvancedIO[crud_function]: http://localhost:3000/server/crud_function/
+[info] [2024-10-01T09:21:09.453Z] : 
+change of productController.js in crud_function detected. Preparing your function, please wait...
+[info] [2024-10-01T09:21:09.997Z] : ℹ AdvancedIO[crud_function]: ready!
+[info] [2024-10-01T09:21:09.997Z] : ℹ AdvancedIO[crud_function]: http://localhost:3000/server/crud_function/
+[info] [2024-10-01T09:39:48.935Z] : 
+addDir of controller in crud_function detected. Preparing your function, please wait...
+[info] [2024-10-01T09:39:49.433Z] : ℹ AdvancedIO[crud_function]: ready!
+[info] [2024-10-01T09:39:49.433Z] : ℹ AdvancedIO[crud_function]: http://localhost:3000/server/crud_function/
+[info] [2024-10-01T09:39:55.960Z] : 
+unlink of productController.js in crud_function detected. Preparing your function, please wait...
+[info] [2024-10-01T09:39:56.666Z] : ℹ AdvancedIO[crud_function]: ready!
+[info] [2024-10-01T09:39:56.666Z] : ℹ AdvancedIO[crud_function]: http://localhost:3000/server/crud_function/
+[info] [2024-10-01T09:40:04.734Z] : 
+change of index.js in crud_function detected. Preparing your function, please wait...
+[info] [2024-10-01T09:40:05.215Z] : ℹ AdvancedIO[crud_function]: ready!
+[info] [2024-10-01T09:40:05.215Z] : ℹ AdvancedIO[crud_function]: http://localhost:3000/server/crud_function/
