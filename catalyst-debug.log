@@ -1,0 +1,82 @@
+[debug] [2024-10-01T08:02:03.209Z] : 
+[debug] [2024-10-01T08:02:03.214Z] : ----------------------------------------------------------------------
+[debug] [2024-10-01T08:02:03.215Z] : Command:      /Users/derrick-ken0017/.nvm/versions/node/v20.16.0/bin/node /Users/derrick-ken0017/.nvm/versions/node/v20.16.0/bin/catalyst serve
+[debug] [2024-10-01T08:02:03.215Z] : CLI Version:  1.17.6
+[debug] [2024-10-01T08:02:03.215Z] : Platform:     darwin
+[debug] [2024-10-01T08:02:03.215Z] : Node Version: v20.16.0
+[debug] [2024-10-01T08:02:03.215Z] : Time:         Tue Oct 01 2024 11:02:03 GMT+0300 (East Africa Time)
+[debug] [2024-10-01T08:02:03.215Z] : ----------------------------------------------------------------------
+[debug] [2024-10-01T08:02:03.215Z] : 
+[debug] [2024-10-01T08:02:03.632Z] : > authorizing via signed-in user option
+[debug] [2024-10-01T08:02:03.633Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL","ZohoCatalyst.pdfshot.execute","ZohoCatalyst.authentication.CREATE"]
+[debug] [2024-10-01T08:02:03.638Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/27864000000015054 
+
+[debug] [2024-10-01T08:02:04.619Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 01 Oct 2024 08:02:04 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=c3d5ec374d3dc932973a3d50f55d8d00; Path=/; Secure; HttpOnly","ZD_CSRF_TOKEN=d05a86b4-2049-4f3d-a443-1b9bcdc74e66;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=d05a86b4-2049-4f3d-a443-1b9bcdc74e66;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-10-01T08:02:04.622Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/27864000000015054/environment 
+
+[debug] [2024-10-01T08:02:05.215Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 01 Oct 2024 08:02:04 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=4ead9897700827f973c0f7dbded7f673; Path=/; Secure; HttpOnly","ZD_CSRF_TOKEN=5c34a312-4791-4973-a8ba-a55a269cb015;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=5c34a312-4791-4973-a8ba-a55a269cb015;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-10-01T08:02:05.349Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/27864000000015054/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic"}
+
+[debug] [2024-10-01T08:02:05.971Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 01 Oct 2024 08:02:05 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/; Secure; HttpOnly","ZD_CSRF_TOKEN=7dc2447a-fc10-4708-82b2-95f19414659e;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=7dc2447a-fc10-4708-82b2-95f19414659e;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-10-01T08:02:05.974Z] : unknown eol undefined hence skipping check
+[info] [2024-10-01T08:02:06.534Z] : 
+[info] [2024-10-01T08:02:06.535Z] :  >>>>>>>>>>>>> AdvancedIO <<<<<<<<<<<< 
+[info] [2024-10-01T08:02:06.535Z] : ℹ crud_function: http://localhost:3000/server/crud_function/
+[info] [2024-10-01T08:02:06.535Z] : 
+[info] [2024-10-01T08:09:50.463Z] : Shutting down server
+[info] [2024-10-01T08:09:50.590Z] : 
+[info] [2024-10-01T08:09:50.591Z] : ✔ Shutdown complete
+[debug] [2024-10-01T08:09:50.592Z] : NO ERRORS REGISTERED
+[debug] [2024-10-01T08:09:50.592Z] : EXEC ENDED with event: serve, message: success
+[debug] [2024-10-01T08:09:50.592Z] : TOTAL DURATION OF COMMAND EXEC : 466964
+[error] [2024-10-01T08:09:50.603Z] : uncaughtException: ENOENT: no such file or directory, open '/var/folders/cp/kkmt44k91c31qptp3w06k7980000gq/T/.catalyst/catalyst-http-log.json'
+Error: ENOENT: no such file or directory, open '/var/folders/cp/kkmt44k91c31qptp3w06k7980000gq/T/.catalyst/catalyst-http-log.json'
+[error] [2024-10-01T08:09:50.607Z] : ✖ An unexpected error has occurred.
+[debug] [2024-10-01T08:09:50.607Z] : Error Stack: CatalystError: An unexpected error has occurred.
+    at exports.default (/Users/derrick-ken0017/.nvm/versions/node/v20.16.0/lib/node_modules/zcatalyst-cli/lib/errorOut.js:19:17)
+    at process.<anonymous> (/Users/derrick-ken0017/.nvm/versions/node/v20.16.0/lib/node_modules/zcatalyst-cli/lib/bin/catalyst.js:87:28)
+    at process.emit (node:events:531:35)
+    at process.processEmit [as emit] (/Users/derrick-ken0017/.nvm/versions/node/v20.16.0/lib/node_modules/zcatalyst-cli/node_modules/signal-exit/index.js:199:34)
+    at process._fatalException (node:internal/process/execution:188:25)
+[debug] [2024-10-01T08:09:50.607Z] : Original Error: Error: ENOENT: no such file or directory, open '/var/folders/cp/kkmt44k91c31qptp3w06k7980000gq/T/.catalyst/catalyst-http-log.json'
+[debug] [2024-10-01T08:09:50.607Z] : Error Status: 500
+[info] [2024-10-01T08:09:50.607Z] : Kindly contact Catalyst support [support@zohocatalyst.com] if you need any further assistance
+[debug] [2024-10-01T08:38:52.427Z] : 
+[debug] [2024-10-01T08:38:52.432Z] : ----------------------------------------------------------------------
+[debug] [2024-10-01T08:38:52.432Z] : Command:      /Users/derrick-ken0017/.nvm/versions/node/v20.16.0/bin/node /Users/derrick-ken0017/.nvm/versions/node/v20.16.0/bin/catalyst serve
+[debug] [2024-10-01T08:38:52.432Z] : CLI Version:  1.17.6
+[debug] [2024-10-01T08:38:52.433Z] : Platform:     darwin
+[debug] [2024-10-01T08:38:52.433Z] : Node Version: v20.16.0
+[debug] [2024-10-01T08:38:52.433Z] : Time:         Tue Oct 01 2024 11:38:52 GMT+0300 (East Africa Time)
+[debug] [2024-10-01T08:38:52.433Z] : ----------------------------------------------------------------------
+[debug] [2024-10-01T08:38:52.433Z] : 
+[debug] [2024-10-01T08:38:52.835Z] : > authorizing via signed-in user option
+[debug] [2024-10-01T08:38:52.835Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL","ZohoCatalyst.pdfshot.execute","ZohoCatalyst.authentication.CREATE"]
+[debug] [2024-10-01T08:38:52.841Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/27864000000015054 
+
+[debug] [2024-10-01T08:38:53.916Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 01 Oct 2024 08:38:53 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/; Secure; HttpOnly","ZD_CSRF_TOKEN=d7e61cfc-aee2-496b-9d0a-5a283ee22c06;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=d7e61cfc-aee2-496b-9d0a-5a283ee22c06;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-10-01T08:38:53.921Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/27864000000015054/environment 
+
+[debug] [2024-10-01T08:38:54.231Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 01 Oct 2024 08:38:54 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=c3d5ec374d3dc932973a3d50f55d8d00; Path=/; Secure; HttpOnly","ZD_CSRF_TOKEN=44cdb2e8-2641-4a6c-8de2-1fa45dcf4b14;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=44cdb2e8-2641-4a6c-8de2-1fa45dcf4b14;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-10-01T08:38:54.346Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/27864000000015054/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic"}
+
+[debug] [2024-10-01T08:38:54.663Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 01 Oct 2024 08:38:54 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/; Secure; HttpOnly","ZD_CSRF_TOKEN=98444938-b941-441d-8880-9a51f3d88027;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=98444938-b941-441d-8880-9a51f3d88027;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-10-01T08:38:54.667Z] : unknown eol undefined hence skipping check
+[info] [2024-10-01T08:38:55.233Z] : 
+[info] [2024-10-01T08:38:55.233Z] :  >>>>>>>>>>>>> AdvancedIO <<<<<<<<<<<< 
+[info] [2024-10-01T08:38:55.234Z] : ℹ crud_function: http://localhost:3000/server/crud_function/
+[info] [2024-10-01T08:38:55.234Z] : 

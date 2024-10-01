@@ -1,0 +1,10 @@
+{
+	"name": "crud_function",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "derrick.mwema@zohotest.com",
+	"dependencies": {
+		"express": "^4.21.0",
+		"zcatalyst-sdk-node": "latest"
+	}
+}
