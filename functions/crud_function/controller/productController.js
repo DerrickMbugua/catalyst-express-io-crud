@@ -97,6 +97,27 @@ const updateProduct = async (req, res) => {
   }
 };
 
+const deleteProduct = async (req, res) => {
+  try {
+    const catalystApp = catalyst.initialize(req);
+    const { ROWID } = req.params;
+
+    const table = catalystApp.datastore().table("Products");
+
+    await table.deleteRow(ROWID)
+
+    res.status(200).send({
+      status: "Delete Success",
+    });
+  } catch (err) {
+    console.error("Error fetching products:", err);
+    res.status(500).send({
+      status: "failure",
+      message: "We're unable to process the request.",
+    });
+  }
+};
+
 // Helper function to query the datastore using ZCQL
 function getDataFromCatalystDataStore(catalystApp) {
   return new Promise((resolve, reject) => {
@@ -116,5 +137,6 @@ function getDataFromCatalystDataStore(catalystApp) {
 module.exports = {
   getAllProducts,
   saveProduct,
-  updateProduct
+  updateProduct,
+  deleteProduct
 };

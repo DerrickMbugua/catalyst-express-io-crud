@@ -246,3 +246,26 @@ change of controller/productController.js in crud_function detected. Preparing y
 change of controller/productController.js in crud_function detected. Preparing your function, please wait...
 [info] [2024-10-01T12:49:48.295Z] : ℹ AdvancedIO[crud_function]: ready!
 [info] [2024-10-01T12:49:48.295Z] : ℹ AdvancedIO[crud_function]: http://localhost:3000/server/crud_function/
+[info] [2024-10-01T12:53:20.358Z] : 
+change of controller/productController.js in crud_function detected. Preparing your function, please wait...
+[info] [2024-10-01T12:53:25.464Z] : ℹ AdvancedIO[crud_function]: ready!
+[info] [2024-10-01T12:53:25.464Z] : ℹ AdvancedIO[crud_function]: http://localhost:3000/server/crud_function/
+[info] [2024-10-01T13:15:54.957Z] : 
+change of controller/productController.js in crud_function detected. Preparing your function, please wait...
+[info] [2024-10-01T13:15:55.665Z] : ℹ AdvancedIO[crud_function]: ready!
+[info] [2024-10-01T13:15:55.665Z] : ℹ AdvancedIO[crud_function]: http://localhost:3000/server/crud_function/
+[info] [2024-10-01T13:16:41.072Z] : 
+change of index.js in crud_function detected. Preparing your function, please wait...
+[info] [2024-10-01T13:16:41.609Z] : ℹ AdvancedIO[crud_function]: ready!
+[info] [2024-10-01T13:16:41.609Z] : ℹ AdvancedIO[crud_function]: http://localhost:3000/server/crud_function/
+[info] [2024-10-01T13:19:15.173Z] : 
+change of index.js in crud_function detected. Preparing your function, please wait...
+[info] [2024-10-01T13:19:15.687Z] : ℹ AdvancedIO[crud_function]: ready!
+[info] [2024-10-01T13:19:15.687Z] : ℹ AdvancedIO[crud_function]: http://localhost:3000/server/crud_function/
+[debug] [2024-10-01T13:19:43.373Z] : > refreshing access token <
+[debug] [2024-10-01T13:19:43.377Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.com/oauth/v2/token 
+<request body omitted>
+
+[debug] [2024-10-01T13:19:44.665Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 01 Oct 2024 13:19:44 GMT","content-type":"application/json;charset=UTF-8","content-length":"1980","connection":"keep-alive","set-cookie":["zalb_b266a5bf57=a711b6da0e6cbadb5e254290f114a026; Path=/; Secure; HttpOnly","iamcsr=229e875f-849a-4448-acb2-735915662da1;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=229e875f-849a-4448-acb2-735915662da1;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
