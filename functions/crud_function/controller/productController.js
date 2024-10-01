@@ -62,6 +62,41 @@ const saveProduct = async (req, res) => {
   }
 };
 
+const updateProduct = async (req, res) => {
+  try {
+    const catalystApp = catalyst.initialize(req);
+    const { ROWID } = req.params;
+    const { name, description, price } = req.body;
+
+    const table = catalystApp.datastore().table("Products");
+    const updatedRowData = {
+      name: name,
+      description: description,
+      price: price,
+      ROWID: ROWID,
+    };
+    await table.updateRow(updatedRowData);
+
+    res.status(200).send({
+      status: "success",
+      data: {
+        product: {
+          id: ROWID,
+          name,
+          description,
+          price,
+        },
+      },
+    });
+  } catch (err) {
+    console.error("Error fetching products:", err);
+    res.status(500).send({
+      status: "failure",
+      message: "We're unable to process the request.",
+    });
+  }
+};
+
 // Helper function to query the datastore using ZCQL
 function getDataFromCatalystDataStore(catalystApp) {
   return new Promise((resolve, reject) => {
@@ -80,5 +115,6 @@ function getDataFromCatalystDataStore(catalystApp) {
 
 module.exports = {
   getAllProducts,
-  saveProduct
+  saveProduct,
+  updateProduct
 };
